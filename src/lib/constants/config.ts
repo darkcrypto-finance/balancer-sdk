@@ -27,6 +27,29 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
             },
         },
     },
+    [Network.CRONOS]: {
+        chainId: Network.CRONOS, //1
+        addresses: {
+            contracts: {
+                vault: '0x18826CD00894a70201FCAaA9F634De5f9131F95A',
+                multicall: '0xEAF557e3bE5Eaa74B9424982526DE3A56BC395c4',
+            },
+            tokens: {
+                wrappedNativeAsset:
+                    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
+            },
+        },
+        urls: {
+            subgraph:
+                'http://35.233.179.163:8000/subgraphs/name/cronos/swappool',
+        },
+        pools: {
+            staBal3Pool: {
+                id: '0x9e23cac8b509603e0a3aec3a5597cee86c911c87000000000000000000000000',
+                address: '0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2',
+            },
+        },
+    },
     [Network.POLYGON]: {
         chainId: Network.POLYGON, //137
         addresses: {
