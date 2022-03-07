@@ -892,7 +892,7 @@
                 },
             },
             urls: {
-                subgraph: 'http://35.233.179.163:8000/subgraphs/name/cronos/swappool',
+                subgraph: 'https://subgraph.darkness.finance/subgraphs/name/cronos/swappool',
             },
             pools: {
                 staBal3Pool: {
