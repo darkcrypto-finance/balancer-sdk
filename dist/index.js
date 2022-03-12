@@ -896,7 +896,7 @@ const BALANCER_NETWORK_CONFIG = {
         chainId: exports.Network.CRONOS,
         addresses: {
             contracts: {
-                vault: '0x18826CD00894a70201FCAaA9F634De5f9131F95A',
+                vault: '0x92631E0E84fF01853ef1bB88fC9c9F7D1e1af1CA',
                 multicall: '0xEAF557e3bE5Eaa74B9424982526DE3A56BC395c4',
             },
             tokens: {
@@ -904,11 +904,11 @@ const BALANCER_NETWORK_CONFIG = {
             },
         },
         urls: {
-            subgraph: 'https://subgraph.darkness.finance/subgraphs/name/cronos/swappool',
+            subgraph: 'https://subgraph.darkness.finance/subgraphs/name/cronos/swapprod',
         },
         pools: {
             staBal3Pool: {
-                id: '0x9e23cac8b509603e0a3aec3a5597cee86c911c87000000000000000000000000',
+                id: '0x36b17c6719e09d98bb020608e9f79a0647d50a70000000000000000000000000',
                 address: '0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2',
             },
         },
