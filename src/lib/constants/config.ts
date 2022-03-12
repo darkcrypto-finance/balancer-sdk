@@ -41,7 +41,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         },
         urls: {
             subgraph:
-                'https://subgraph.darkness.finance/subgraphs/name/cronos/swappool',
+                'https://subgraph.darkness.finance/subgraphs/name/cronos/swapprod',
         },
         pools: {
             staBal3Pool: {
