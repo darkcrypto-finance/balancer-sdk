@@ -862,7 +862,7 @@ function batchSwaps(assetArray, swaps) {
     return { swaps: batchedSwaps, assets: newAssetArray };
 }
 
-const balancerVault = '0xBA12222222228d8Ba445958a75a0704d566BF2C8';
+const balancerVault = '0x92631E0E84fF01853ef1bB88fC9c9F7D1e1af1CA';
 const BALANCER_NETWORK_CONFIG = {
     [Network.MAINNET]: {
         chainId: Network.MAINNET,
@@ -899,12 +899,7 @@ const BALANCER_NETWORK_CONFIG = {
         urls: {
             subgraph: 'https://subgraph.darkness.finance/subgraphs/name/cronos/swapprod',
         },
-        pools: {
-            staBal3Pool: {
-                id: '0x36b17c6719e09d98bb020608e9f79a0647d50a70000000000000000000000000',
-                address: '0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2',
-            },
-        },
+        pools: {},
     },
     [Network.POLYGON]: {
         chainId: Network.POLYGON,
