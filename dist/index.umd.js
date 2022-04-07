@@ -888,7 +888,7 @@
                     multicall: '0xEAF557e3bE5Eaa74B9424982526DE3A56BC395c4',
                 },
                 tokens: {
-                    wrappedNativeAsset: '0xa1B2b503959aedD81512C37e9dce48164ec6a94d',
+                    wrappedNativeAsset: '0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23',
                 },
             },
             urls: {
