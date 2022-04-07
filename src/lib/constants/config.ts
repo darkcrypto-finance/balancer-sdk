@@ -1,7 +1,7 @@
 import { Network } from './network';
 import { BalancerNetworkConfig } from '@/types';
 
-export const balancerVault = '0xBA12222222228d8Ba445958a75a0704d566BF2C8';
+export const balancerVault = '0x92631E0E84fF01853ef1bB88fC9c9F7D1e1af1CA';
 
 export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     [Network.MAINNET]: {
@@ -36,7 +36,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
             },
             tokens: {
                 wrappedNativeAsset:
-                    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
+                    '0xa1B2b503959aedD81512C37e9dce48164ec6a94d',
             },
         },
         urls: {
